@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Career Buddy MVP</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>AI Career Buddy for Tech-Minded Lawyers</h1>
+        <p class="subtitle">
+          Answer 10 quick questions to discover legal career paths for the AI and tech age.
+        </p>
+      </header>
+
+      <section id="quiz-section" class="card">
+        <h2>Question Flow</h2>
+        <p class="hint">Questions are grouped into interests, strengths, values, and work style.</p>
+        <form id="quiz-form"></form>
+        <button id="submit-btn" type="button">See My Top 3 Careers</button>
+      </section>
+
+      <section id="results-section" class="card hidden">
+        <h2>Your Top 3 Career Recommendations</h2>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
